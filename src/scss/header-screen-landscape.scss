@@ -1,0 +1,19 @@
+.wrapper {
+  width: 60.4vw;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header {
+  .logo {
+    position: absolute;
+    top: 1.57vw;
+  }
+
+  p {
+    text-align: center;
+    font-family: "circe-light";
+    font-size: 24px;
+    color: $secondColor;
+  }
+}
