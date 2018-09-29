@@ -1,5 +1,6 @@
 import React from 'react';
-import header from '../assets/header.jpg';
+//import header from '../assets/header.jpg';
+import header from '../assets/ms1.png';
 import logo from '../assets/logo.svg'
 
 class Header extends React.Component
@@ -10,7 +11,26 @@ class Header extends React.Component
                 <div style={backHeaderImg}>
                     <div className="wrapper">
                         <div className="logo" style={logoHeader}/>
-                        <p>IT-хакатон в Запорожье</p>
+                        <div className="header-info">
+                            <p><span className="highlight-text">IT-хакатон в Запорожье</span></p>
+                            <p><span className="highlight-text">&#60;</span><span className="header-text">BEST</span><span className="normal-text"> Competition<br/>for </span><span className="header-text">Geeks</span><span className="highlight-text">&#47;&#62;</span></p>
+                            <p>До конца <span className="highlight-text">регистрации</span> осталось</p>
+                            <div>
+                                <div className="timer-block day">
+                                    <p className="digit">32</p>
+                                    <p className="word">дней</p>
+                                </div>
+                                <div className="timer-block hour">
+                                    <p className="digit">16</p>
+                                    <p className="word">часов</p>
+                                </div>
+                                <div className="timer-block second">
+                                    <p className="digit">44</p>
+                                    <p className="word">секунд</p>
+                                </div>
+                            </div>
+                            <a href="#" id="register">Регистрация</a>
+                        </div>
                     </div>
                 </div>
             </sector>
@@ -25,9 +45,7 @@ let logoHeader = {
 };
 
 let backHeaderImg = {
-    background: `url(${header}) no-repeat`,
-    backgroundSize: "100vw",
-    backgroundPositionY: "-15vw",
+    background: `url(${header})`,
     width: "100vw",
     height: "36.44vw"
 };
