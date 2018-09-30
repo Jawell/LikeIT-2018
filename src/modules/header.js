@@ -1,6 +1,5 @@
 import React from 'react';
-//import header from '../assets/header.jpg';
-import header from '../assets/ms1.png';
+import header from '../assets/header.svg';
 import logo from '../assets/logo.svg'
 
 class Header extends React.Component
@@ -46,8 +45,9 @@ let logoHeader = {
 
 let backHeaderImg = {
     background: `url(${header})`,
+    backgroundSize: "100vw",
     width: "100vw",
-    height: "36.44vw"
+    height: "36.6vw"
 };
 
 export default Header;
