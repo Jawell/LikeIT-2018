@@ -34,11 +34,6 @@
       color: white;
       font-size: 0.833vw;
 
-      .header-column {
-        font-family: "furore";
-        font-size: 1.041vw;
-      }
-
       .highlight {
         color: $highlight;
       }
@@ -53,6 +48,11 @@
       grid-template-areas: "img text";
       grid-template-columns: 5.208vw 24.739vw;
       margin-bottom: 1.458vw;
+
+      .header-column {
+        font-family: "furore";
+        font-size: 1.041vw;
+      }
     }
 
     .img-field {
