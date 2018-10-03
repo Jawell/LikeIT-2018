@@ -4,6 +4,26 @@
     margin-bottom: 4.27vw;
   }
 
+  #boxman {
+    position: absolute;
+    top: 4.791vw;
+    right: 1.718vw;
+
+    img:first-child {
+      height: 22.395vw;
+      width: 13.958vw;
+    }
+
+    img:last-child {
+      position: absolute;
+      width: 14.687vw;
+      height: 4.427vw;
+      bottom: 0;
+      right: 0;
+      z-index: -1;
+    }
+  }
+
   .about-body {
     .img-field {
       width: 3.125vw;
@@ -39,6 +59,7 @@
       display: grid;
       grid-template-areas: "img text";
       grid-template-columns: 5.208vw 24.739vw;
+      margin-bottom: 1.458vw;
     }
 
     #short-info {
@@ -46,6 +67,7 @@
       grid-template-areas:  "calendar place"
                             "participation num";
       grid-template-columns:  20.364vw 20.364vw;
+      grid-row-gap: 1.302vw;
 
       img {
         grid-area: img;

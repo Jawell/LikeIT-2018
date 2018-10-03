@@ -4,6 +4,8 @@ import Calendar from "../assets/calendar.png";
 import Computer from "../assets/computer.png";
 import Placeholder from "../assets/placeholder.png";
 import Programmer from "../assets/programmer.png";
+import Boxman from "../assets/boxman.png";
+import Ellipse from "../assets/ellipse.png";
 
 class About extends React.Component
 {
@@ -13,6 +15,10 @@ class About extends React.Component
         <div className="wrapper">
           <div className="about-header block-header">
             <p><span>&#62;</span><span> О проекте</span></p>
+          </div>
+          <div id="boxman">
+            <img src={Boxman} alt={Boxman}/>
+            <img src={Ellipse} alt={Ellipse}/>
           </div>
           <div className="about-body">
             <div id="full-info">
@@ -47,7 +53,6 @@ class About extends React.Component
                 <img src={Computer} alt={Computer} className="img-field"/>
                 <div className="short-info-cell">
                   <p><span className="header-column">участие бесплатное</span></p>
-                  <p><span className="headerlight">24-25</span> ноября</p>
                 </div>
               </div>
 
