@@ -15,59 +15,51 @@ class About extends React.Component
             <p><span>&#62;</span><span> О проекте</span></p>
           </div>
           <div className="about-body">
-            <table>
-              <tbody>
-                <tr>
-                  <td className="img-field what-field">
-                    <img src={Binary} alt={Binary}/>
-                  </td>
-                  <td id="full-info-cell">
-                    <p><span className="highlight field-header">что?</span></p>
-                    <p>Мероприятие состоит из двух частей: <span className="headerlight">Ярмарки Карьерв</span> и <span className="headerlight">Хакатона</span>.
-                    <p><span className="highlight">Ярмарка Карьеры</span> - это 3-часовая презентация  ведущих IT-компаний Украины и мира.</p>
-                    <p><span className="highlight">Хакатон</span> - «марафон программистов», где небольшие команды специалисты из разных областей разработки программного обеспечения (программисты, дизайнеры, менеджеры) сообща работают над решением какой-либо проблемы.</p></p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <table id="short-info">
-              <tbody>
-                <tr>
-                  <td className="img-field">
-                    <img src={Calendar} alt={Calendar}/>
-                  </td>
-                  <td className="margin-cell">
-                    <p className="highlight field-header">когда?</p>
-                    <p><span className="headerlight">24-25</span> ноября</p>
-                  </td>
+            <div id="full-info">
+              <img src={Binary} alt={Binary} className="img-field"/>
+              <div className="text-info">
+                <p><span className="highlight header-column">что?</span></p>
+                <p>Мероприятие состоит из двух частей: <span className="headerlight">Ярмарки Карьерв</span> и <span className="headerlight">Хакатона</span>.</p>
+                <p><span className="highlight">Ярмарка Карьеры</span> - это 3-часовая презентация ведущих IT-компаний Украины и мира.</p>
+                <p><span className="highlight">Хакатон</span> - «марафон программистов», где небольшие команды специалисты из разных областей разработки программного обеспечения (программисты, дизайнеры, менеджеры) сообща работают над решением какой-либо проблемы.</p>
+              </div>
+            </div>
 
-                  <td className="img-field">
-                    <img src={Placeholder} alt={Placeholder}/>
-                  </td>
-                  <td>
-                    <p className="highlight field-header">где?</p>
-                    <p>Coming soon</p>
-                  </td>
-                </tr>
+            <div id="short-info">
 
-                <tr>
-                  <td className="img-field">
-                    <img src={Computer} alt={Computer}/>
-                  </td>
-                  <td className="margin-cell">
-                    <p className="highlight field-header">участие бесплатно</p>
-                  </td>
+              <div id="calendar" className="cell-info">
+                <img src={Calendar} alt={Calendar} className="img-field"/>
+                <div className="short-info-cell">
+                  <p><span className="highlight header-column">когда?</span></p>
+                  <p><span className="headerlight">24-25</span> ноября</p>
+                </div>
+              </div>
 
-                  <td className="img-field">
-                    <img src={Programmer} alt={Programmer}/>
-                  </td>
-                  <td>
-                    <p className="highlight field-header">количество человек</p>
-                    <p><span className="headerlight">100</span> человек</p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+              <div id="place" className="cell-info">
+                <img src={Placeholder} alt={Placeholder} className="img-field"/>
+                <div className="short-info-cell">
+                  <p><span className="highlight header-column">где?</span></p>
+                  <p>coming soon</p>
+                </div>
+              </div>
+
+              <div id="participation" className="cell-info">
+                <img src={Computer} alt={Computer} className="img-field"/>
+                <div className="short-info-cell">
+                  <p><span className="header-column">участие бесплатное</span></p>
+                  <p><span className="headerlight">24-25</span> ноября</p>
+                </div>
+              </div>
+
+              <div id="num" className="cell-info">
+                <img src={Programmer} alt={Programmer} className="img-field"/>
+                <div className="short-info-cell">
+                  <p><span className="highlight header-column">количество участников</span></p>
+                  <p><span className="headerlight">100</span> человек</p>
+                </div>
+              </div>
+
+            </div>
           </div>
         </div>
       </section>

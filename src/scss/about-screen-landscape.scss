@@ -5,56 +5,81 @@
   }
 
   .about-body {
-    table {
-      td {
-        img {
-          width: 3.125vw;
-          height: auto;
-        }
+    .img-field {
+      width: 3.125vw;
+      display: grid;
+      grid-area: img;
+    }
 
-        .field-header {
-          font-family: "furore";
-          font-size: 1.041vw;
-        }
+    .text-info {
+      display: grid;
+      grid-area: text;
+    }
 
-        .highlight {
-          color: $highlight;
-        }
+    p {
+      font-family: "circe-regular";
+      color: white;
+      font-size: 0.833vw;
 
-        .headerlight {
-          font-family: "circe-extrabold";
-          color: $header;
-        }
-
-        p {
-          font-family: "circe-regular";
-          font-size: 0.833vw;
-          color: white;
-        }
+      .header-column {
+        font-family: "furore";
+        font-size: 1.041vw;
       }
 
-      .img-field {
-        vertical-align: middle;
-        padding-right: 2.083vw;
+      .highlight {
+        color: $highlight;
       }
 
-      .what-field {
-        vertical-align: top;
+      .headerlight {
+        color: $header;
       }
+    }
+
+    #full-info {
+      display: grid;
+      grid-template-areas: "img text";
+      grid-template-columns: 5.208vw 24.739vw;
     }
 
     #short-info {
-      tr:first-child > td{
-        padding-bottom: 2.083vw;
+      display: grid;
+      grid-template-areas:  "calendar place"
+                            "participation num";
+      grid-template-columns:  20.364vw 20.364vw;
+
+      img {
+        grid-area: img;
       }
 
-      .margin-cell {
-        padding-right: 2.5vw;
+      .short-info-cell {
+        grid-area: text;
+        align-self: center;
       }
-    }
 
-    #full-info-cell {
-      width: 24.739vw;
+      .cell-info {
+        grid-template-areas: "img text";
+        grid-template-columns: 5.208vw 15.364vw;
+      }
+
+      #calendar {
+        display: grid;
+        grid-area: calendar;
+      }
+
+      #place {
+        display: grid;
+        grid-area: place;
+      }
+
+      #participation {
+        display: grid;
+        grid-area: participation;
+      }
+
+      #num {
+        display: grid;
+        grid-area: num;
+      }
     }
   }
 }
