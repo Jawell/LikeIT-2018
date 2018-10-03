@@ -1,0 +1,98 @@
+@media screen and (orientation: portrait){
+  #boxman {
+    display: none;
+  }
+
+  .about-header {
+    margin-top: 8.888vw;
+    margin-bottom: 8.888vw;
+  }
+
+  .about-body {
+    p {
+      font-family: "circe-regular";
+      color: white;
+      font-size: 4.444vw;
+
+      .highlight {
+        color: $highlight;
+      }
+
+      .headerlight {
+        color: $header;
+      }
+    }
+
+    #full-info {
+      display: grid;
+      grid-template-areas:  "img header"
+                            "text text";
+      grid-template-columns: 21.111vw;
+      grid-row-gap: 2.777vw;
+
+      .img-field {
+        width: 12.222vw;
+        display: grid;
+        grid-area: img;
+      }
+
+      .text-info {
+        grid-area: text;
+        margin-bottom: 4.722vw;
+      }
+
+      .text-info p {
+        text-align: left;
+      }
+
+      .header-column {
+        display: none;
+      }
+
+      .header-column-mobile {
+        grid-area: header;
+        justify-self: start;
+        align-self: center;
+        font-family: "furore";
+        font-size: 5.555vw;
+      }
+    }
+
+    #short-info {
+      .cell-info {
+        display: grid;
+        grid-template-areas: "img text";
+        grid-template-columns: 21.111vw;
+      }
+
+      .cell-info:not(:last-child) {
+        margin-bottom: 7.777vw;
+      }
+
+      .cell-info img {
+        grid-area: img;
+      }
+
+      .img-field {
+        width: 12.222vw;
+      }
+
+      .header-column {
+        font-family: "furore";
+        font-size: 5.555vw;;
+      }
+
+      .cell-info {
+        .short-info-cell {
+          grid-area: text;
+          justify-self: start;
+          align-self: center;
+        }
+
+        .short-info-cell p {
+          text-align: left;
+        }
+      }
+    }
+  }
+}

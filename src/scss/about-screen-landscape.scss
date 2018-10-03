@@ -1,4 +1,8 @@
 @media screen and (orientation: landscape) {
+  .header-column-mobile {
+    display: none;
+  }
+
   .about-header {
     margin-top: 3.229vw;
     margin-bottom: 4.27vw;
@@ -25,17 +29,6 @@
   }
 
   .about-body {
-    .img-field {
-      width: 3.125vw;
-      display: grid;
-      grid-area: img;
-    }
-
-    .text-info {
-      display: grid;
-      grid-area: text;
-    }
-
     p {
       font-family: "circe-regular";
       color: white;
@@ -60,6 +53,17 @@
       grid-template-areas: "img text";
       grid-template-columns: 5.208vw 24.739vw;
       margin-bottom: 1.458vw;
+    }
+
+    .img-field {
+      width: 3.125vw;
+      display: grid;
+      grid-area: img;
+    }
+
+    .text-info {
+      display: grid;
+      grid-area: text;
     }
 
     #short-info {
