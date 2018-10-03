@@ -1,0 +1,60 @@
+@media screen and (orientation: landscape) {
+  .about-header {
+    margin-top: 3.229vw;
+    margin-bottom: 4.27vw;
+  }
+
+  .about-body {
+    table {
+      td {
+        img {
+          width: 3.125vw;
+          height: auto;
+        }
+
+        .field-header {
+          font-family: "furore";
+          font-size: 1.041vw;
+        }
+
+        .highlight {
+          color: $highlight;
+        }
+
+        .headerlight {
+          font-family: "circe-extrabold";
+          color: $header;
+        }
+
+        p {
+          font-family: "circe-regular";
+          font-size: 0.833vw;
+          color: white;
+        }
+      }
+
+      .img-field {
+        vertical-align: middle;
+        padding-right: 2.083vw;
+      }
+
+      .what-field {
+        vertical-align: top;
+      }
+    }
+
+    #short-info {
+      tr:first-child > td{
+        padding-bottom: 2.083vw;
+      }
+
+      .margin-cell {
+        padding-right: 2.5vw;
+      }
+    }
+
+    #full-info-cell {
+      width: 24.739vw;
+    }
+  }
+}
