@@ -9,7 +9,6 @@
     .header-background {
       background: url("./assets/header.svg");
       background-size: 100vw;
-      width: 100vw;
       height: 36.6vw;
     }
 
@@ -18,6 +17,7 @@
       top: 1.57vw;
       width: 14.5vw;
       height: 2.74vw;
+      background-repeat: no-repeat;
      }
 
     p {
