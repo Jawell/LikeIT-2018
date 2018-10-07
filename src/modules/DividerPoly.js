@@ -1,6 +1,6 @@
 import React from 'react';
 
-class DividerDesktop extends React.Component{
+class DividerPoly extends React.Component{
   render(){
     return (
       <section id="divider_1">
@@ -20,4 +20,4 @@ let polyline = {
   strokeWidth: "7.135vw",
 };
 
-export default DividerDesktop;
+export default DividerPoly;
