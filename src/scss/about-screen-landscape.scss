@@ -41,6 +41,11 @@
       .headerlight {
         color: $header;
       }
+
+      .header-column {
+        font-family: "furore";
+        font-size: 1.041vw;
+      }
     }
 
     #full-info {
@@ -48,11 +53,6 @@
       grid-template-areas: "img text";
       grid-template-columns: 5.208vw 24.739vw;
       margin-bottom: 1.458vw;
-
-      .header-column {
-        font-family: "furore";
-        font-size: 1.041vw;
-      }
     }
 
     .img-field {
@@ -71,7 +71,7 @@
       grid-template-areas:  "calendar place"
                             "participation num";
       grid-template-columns:  20.364vw 20.364vw;
-      grid-row-gap: 1.302vw;
+      grid-row-gap: 3.281vw;
 
       img {
         grid-area: img;
@@ -85,6 +85,7 @@
       .cell-info {
         grid-template-areas: "img text";
         grid-template-columns: 5.208vw 15.364vw;
+        align-content: center;
       }
 
       #calendar {
