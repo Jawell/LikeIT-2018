@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.scss';
-import Header from './modules/header';
-import About from './modules/about';
+import Header from './modules/Header';
+import About from './modules/About';
+import DividerDesktop from './modules/DividerDesktop';
 
 class App extends Component
 {
@@ -11,6 +12,7 @@ class App extends Component
       <div>
         <Header/>
         <About/>
+        <DividerDesktop/>
       </div>
     );
   }
