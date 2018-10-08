@@ -30,7 +30,7 @@
 
   .about-body {
     p {
-      font-family: "circe-regular";
+      font-family: "circe-light";
       color: white;
       font-size: 0.833vw;
 
@@ -45,6 +45,10 @@
       .header-column {
         font-family: "furore";
         font-size: 1.041vw;
+      }
+
+      .bold-inside {
+        font-family: "circe-bold";
       }
     }
 

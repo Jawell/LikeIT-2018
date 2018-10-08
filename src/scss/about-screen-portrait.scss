@@ -10,7 +10,7 @@
 
   .about-body {
     p {
-      font-family: "circe-regular";
+      font-family: "circe-light";
       color: white;
       font-size: 4.444vw;
 
@@ -20,6 +20,10 @@
 
       .headerlight {
         color: $header;
+      }
+
+      .bold-inside {
+        font-family: "circe-bold";
       }
     }
 
