@@ -3,6 +3,7 @@ import './App.scss';
 import Header from './modules/Header';
 import About from './modules/About';
 import DividerPoly from './modules/DividerPoly';
+import Category from './modules/Category';
 
 class App extends Component
 {
@@ -13,6 +14,7 @@ class App extends Component
         <Header/>
         <About/>
         <DividerPoly/>
+        <Category/>
       </div>
     );
   }
