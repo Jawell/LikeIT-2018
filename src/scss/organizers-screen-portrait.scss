@@ -1,3 +1,74 @@
 @media screen and (orientation: portrait) {
+  #organizers {
+    .left-wrapper{
+      width: 79.795vw;
+      position: relative;
+    }
 
+    .about-header {
+      margin-bottom: 0;
+    }
+
+    #organizers-info {
+      .headerlight {
+        font-family: "circe-bold";
+        color: $header;
+      }
+
+      .highlight {
+        font-family: "circe-extrabold";
+        color: $highlight;
+      }
+
+      div:last-child {
+        width: 100vw;
+
+        .wrapper-mobile {
+          width: 91.111vw;
+          margin: 0 auto;
+          position: relative;
+        }
+      }
+
+      div:last-child p {
+        font-family: "circe-light";
+        font-size: 4.444vw;
+        color: white;
+        text-align: left;
+      }
+
+      div:last-child p:not(:last-child) {
+        margin-bottom: 5.555vw;
+      }
+
+      #shadow-img {
+        display: inline-block;
+        position: relative;
+        width: 93vw;
+        height: 61.1vw;
+        background: #FBAB18;
+        box-sizing: border-box;
+        -webkit-clip-path: polygon(0 0, 93% 10%, 100% 90%, 0 100%);
+        clip-path: polygon(0 0, 93% 10%, 100% 90%, 0 100%);
+      }
+
+      #shadow-img img {
+        position: absolute;
+        top: 2px;
+        left: 0;
+        width: 92.5vw;
+        height: 60vw;
+        -webkit-clip-path: polygon(0 0, 93% 10%, 100% 90%, 0 100%);
+        clip-path: polygon(0 0, 93% 10%, 100% 90%, 0 100%);
+      }
+
+      #best-logo-big {
+        width: 95.555vw;
+        height: auto;
+        position: absolute;
+        right: -18.4vw;
+        bottom: 20.6vw;
+      }
+    }
+  }
 }
