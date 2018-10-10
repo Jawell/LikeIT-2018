@@ -1,0 +1,10 @@
+@media screen and (orientation: landscape) {
+  #organizers-info {
+    img {
+      width: 27.395vw;
+      height: auto;
+      -webkit-clip-path: polygon(0 0, 93% 10%, 100% 90%, 0 100%);
+      clip-path: polygon(0 0, 93% 10%, 100% 90%, 0 100%);
+    }
+  }
+}
