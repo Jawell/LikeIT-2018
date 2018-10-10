@@ -1,4 +1,8 @@
 @media screen and (orientation: landscape) {
+  #category {
+    margin-top: -3.2vw;
+  }
+
   #category-info {
     display: grid;
     grid-template-areas: "mobile web data";
