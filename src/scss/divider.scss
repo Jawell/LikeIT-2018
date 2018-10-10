@@ -20,3 +20,17 @@
     margin-top: 6.510vw;
   }
 }
+
+@media screen and (orientation: portrait){
+  #divider_2 {
+    margin-top: 8.611vw;
+    transform: translateX(34.722vw) scale(5,3);
+    max-width: 20.4vw;
+  }
+}
+
+@media screen and (orientation: landscape){
+  #divider_2 {
+    margin-top: 4.444vw;
+  }
+}

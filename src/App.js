@@ -4,6 +4,7 @@ import Header from './modules/Header';
 import About from './modules/About';
 import DividerPoly from './modules/DividerPoly';
 import Category from './modules/Category';
+import DividerStraight from './modules/DividerStraight';
 
 class App extends Component
 {
@@ -15,6 +16,7 @@ class App extends Component
         <About/>
         <DividerPoly/>
         <Category/>
+        <DividerStraight/>
       </div>
     );
   }
