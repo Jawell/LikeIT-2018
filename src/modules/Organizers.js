@@ -1,5 +1,6 @@
 import React from 'react';
 import OrganizersPhoto from '../assets/organizers.jpg';
+import Logo from '../assets/best-logo-big.svg';
 
 class Organizers extends React.Component
 {
@@ -13,6 +14,7 @@ class Organizers extends React.Component
         </div>
         <div className="left-wrapper">
           <div id="organizers-info">
+            <img id="best-logo-big" src={Logo} alt={Logo}/>
             <div id="shadow-img">
               <img src={OrganizersPhoto} alt={OrganizersPhoto}/>
             </div>

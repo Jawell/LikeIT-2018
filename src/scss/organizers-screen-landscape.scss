@@ -5,6 +5,10 @@
       position: relative;
     }
 
+    .about-header {
+      margin-bottom: 0;
+    }
+
     #organizers-info {
       display: grid;
       grid-template-areas: "img text";
@@ -50,6 +54,14 @@
         height: 27.239vw;
         -webkit-clip-path: polygon(0 0, 93% 10%, 100% 90%, 0 100%);
         clip-path: polygon(0 0, 93% 10%, 100% 90%, 0 100%);
+      }
+
+      #best-logo-big {
+        width: 31.927vw;
+        height: auto;
+        position: absolute;
+        right: -9.854vw;
+        top: -2.333vw;
       }
     }
   }
