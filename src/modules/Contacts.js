@@ -16,8 +16,9 @@ class Contacts extends React.Component
           <div id="contacts-body">
             <div className="contact">
               <img src={MO} alt={MO}/>
+              <p className="mo-mobile"><span>главный организатор</span></p>
               <div>
-                <p><span>главный организатор</span></p>
+                <p className="mo"><span>главный организатор</span></p>
                 <p>Александр Лаговский</p>
                 <div>
                   <img src={Phone} alt={Phone}/>
@@ -31,9 +32,10 @@ class Contacts extends React.Component
             </div>
 
             <div className="contact">
-              <img src={FR}/>
+              <img src={FR} alt={FR}/>
+              <p className="mo-mobile"><span>корпоративные связи</span></p>
               <div>
-                <p><span>корпоративные связи</span></p>
+                <p className="mo"><span>корпоративные связи</span></p>
                 <p>Катерина Назаренко</p>
                 <div>
                   <img src={Phone} alt={Phone}/>

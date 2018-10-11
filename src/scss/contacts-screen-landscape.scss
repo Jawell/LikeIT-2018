@@ -1,5 +1,9 @@
 @media screen and (orientation: landscape){
   #contacts {
+    .mo-mobile {
+      display: none;
+    }
+
     margin-bottom: 5.468vw;
 
     #contacts-body {

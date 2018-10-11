@@ -1,0 +1,84 @@
+@media screen and (orientation: portrait){
+  #contacts {
+    .mo {
+      display: none;
+    }
+
+    margin-bottom: 5.468vw;
+
+    #contacts-body {
+      div:first-child {
+        margin-bottom: 7.5vw;
+      }
+
+      .contact {
+        display: grid;
+        grid-template-areas: "avatar position"
+                              "text text";
+        grid-template-columns: 34.722vw 1fr;
+        grid-column-gap: 5.277vw;
+        grid-row-gap: 5vw;
+        align-items: center;
+        justify-items: start;
+
+        span {
+          color: $highlight;
+          font-family: 'furore';
+          font-size: 5vw;
+        }
+      }
+
+      .contact > img {
+        grid-area: avatar;
+        width: 34.722vw;
+        border-radius: 50%;
+      }
+
+      .mo-mobile {
+        grid-area: position;
+        font-size: 5vw;
+        text-align: start;
+      }
+
+      .contact > div {
+        grid-area: text;
+      }
+
+      .contact > div {
+        div {
+          display: grid;
+          grid-template-areas: "symbol text";
+          grid-column-gap: 6.111vw;
+          justify-content: start;
+        }
+
+        div img {
+          grid-area: symbol;
+        }
+
+        div p {
+          grid-area: text;
+          font-size: 4.444vw;
+        }
+      }
+
+      .contact > div > p {
+        margin-bottom: 0.697vw;
+      }
+
+      .contact > div > div:not(:last-child) {
+        margin-bottom: 0.937vw;
+      }
+
+      .contact > div > p:nth-child(2) {
+        margin-left: 10vw;
+      }
+
+      p {
+        color: $main;
+        font-family: "circe-light";
+        font-size: 6.944vw;
+      }
+    }
+  }
+}
