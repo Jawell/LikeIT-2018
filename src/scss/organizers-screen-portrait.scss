@@ -24,6 +24,7 @@
 
       div:last-child {
         width: 100vw;
+        //TODO: max-width: 100%;
 
         .wrapper-mobile {
           width: 91.111vw;
@@ -65,10 +66,10 @@
       }
 
       #best-logo-big {
-        width: 95.555vw;
+        width: 93.555vw;
         height: auto;
         position: absolute;
-        right: -18.4vw;
+        right: -16.4vw;
         bottom: 20.6vw;
       }
     }
