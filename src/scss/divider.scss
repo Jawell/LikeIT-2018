@@ -10,27 +10,55 @@
 @media screen and (orientation: portrait){
   #divider_1 {
     margin-top: 8.611vw;
-    transform: translateX(34.722vw) scale(5,3);
-    max-width: 20.4vw;
+
+    div {
+      background: url("./assets/divider-poly-mobile.svg");
+      background-size: 100vw;
+      width: 100vw;
+      height: 14.722vw;
+      max-width: 100%;
+    }
   }
 }
 
 @media screen and (orientation: landscape){
   #divider_1 {
     margin-top: 6.510vw;
+
+    div {
+      background: url("./assets/divider-poly.svg");
+      background-size: 100vw;
+      width: 100vw;
+      height: 7.239vw;
+      max-width: 100%;
+    }
   }
 }
 
 @media screen and (orientation: portrait){
   #divider_2 {
     margin-top: 8.611vw;
-    transform: translateX(34.722vw) scale(5,3);
-    max-width: 20.4vw;
+
+    div {
+      background: url("./assets/divider-straight-mobile.svg");
+      background-size: 100vw;
+      width: 100vw;
+      height: 20.555vw;
+      max-width: 100%;
+    }
   }
 }
 
 @media screen and (orientation: landscape){
   #divider_2 {
     margin-top: 0.444vw;
+
+    div {
+      background: url("./assets/divider-straight.svg");
+      background-size: 100vw;
+      width: 100vw;
+      height: 7.708vw;
+      max-width: 100%;
+    }
   }
 }
