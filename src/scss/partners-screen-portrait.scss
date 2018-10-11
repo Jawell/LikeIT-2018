@@ -1,0 +1,30 @@
+@media screen and (orientation: portrait) {
+  #partners {
+
+    background: url("./assets/partners-back-mobile.svg") no-repeat;
+    background-position-x: -3.5vw;
+    height: 170.27vw;
+
+    .partners {
+      padding-top: 21.333vw;
+    }
+
+    .mobile-partners {
+      text-align: center;
+
+      img {
+        width: 37.777vw;
+        height: auto;
+        margin-bottom: 5vw;
+      }
+
+      img:nth-child(odd) {
+        margin-right: 7.733vw;
+      }
+    }
+
+    .line {
+      display: none;
+    }
+  }
+}
