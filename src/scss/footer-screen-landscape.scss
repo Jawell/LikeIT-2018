@@ -1,0 +1,80 @@
+@media screen and (orientation: landscape) {
+  footer {
+    #copyright-mobile {
+      display: none;
+    }
+
+    background: #161616;
+    .wrapper {
+      display: grid;
+      grid-template-areas: "likeit text best";
+      grid-template-columns: 9.375vw 1fr 9.375vw;
+      align-items: center;
+      height: 7.031vw;
+
+      div {
+        img {
+          grid-area: img;
+          width: 1.302vw;
+          height: auto;
+        }
+
+        a {
+          font-family: "circe-light";
+          font-size: 0.833vw;
+          color: white;
+        }
+      }
+
+      p {
+        font-family: 'circe-light';
+        font-size: 0.833vw;
+      }
+    }
+
+    .wrapper > div {
+      display: grid;
+      grid-area: text;
+      grid-template-areas: "fb inst"
+                            "copyright copyright";
+      grid-row-gap: 1.145vw;
+      grid-column-gap: 0.520vw;
+      justify-items: center;
+    }
+
+    .link {
+      display: grid;
+      grid-template-areas: "img link";
+      grid-column-gap: 0.781vw;
+      align-items: center;
+    }
+
+    #fb {
+      grid-area: fb;
+      justify-self: end;
+    }
+
+    #inst {
+      grid-area: inst;
+      justify-self: start;
+    }
+
+    .wrapper > img {
+      width: 9.375vw;
+      height: auto;
+    }
+
+    #copyright {
+      grid-area: copyright;
+      color: white;
+    }
+
+    #likeit {
+      grid-area: likeit;
+    }
+
+    #best {
+      grid-area: best;
+    }
+  }
+}

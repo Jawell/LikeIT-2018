@@ -1,0 +1,63 @@
+@media screen and (orientation: portrait) {
+  footer {
+    #copyright {
+      display: none;
+    }
+
+    background: #161616;
+
+    .wrapper {
+      text-align: center;
+
+      #likeit {
+        width: 50vw;
+        height: auto;
+        padding: 3.888vw 3.888vw;
+      }
+
+      #best {
+        width: 50vw;
+        height: auto;
+        padding: 5vw 5vw;
+      }
+
+      .line {
+        margin-left: 5vw;
+
+        div:first-child {
+          margin-bottom: 3.611vw;
+        }
+      }
+
+      .link {
+        display: grid;
+        grid-template-areas: "img link";
+        grid-template-columns: 6.944vw 1fr;
+        grid-column-gap: 4.166vw;
+        justify-items: start;
+      }
+
+      .link a {
+        font-family: "circe-light";
+        font-size: 4.444vw;
+        color: $main;
+        text-decoration: none;
+      }
+
+      .link a:hover {
+        color: $main;
+      }
+
+      .link img {
+        width: 6.944vw;
+      }
+
+      #copyright-mobile {
+        font-family: "circe-light";
+        font-size: 4.444vw;
+        color: $main;
+        padding-bottom: 3.611vw;
+      }
+    }
+  }
+}

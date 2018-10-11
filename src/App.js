@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.scss';
+
 import Header from './modules/Header';
 import About from './modules/About';
 import DividerPoly from './modules/DividerPoly';
@@ -9,6 +10,7 @@ import Organizers from './modules/Organizers';
 import Partners from './modules/Partners';
 import Chance from './modules/Chance';
 import Contacts from './modules/Contacts';
+import Footer from './modules/Footer';
 
 class App extends Component
 {
@@ -25,6 +27,7 @@ class App extends Component
         <Partners/>
         <Chance/>
         <Contacts/>
+        <Footer/>
       </div>
     );
   }
