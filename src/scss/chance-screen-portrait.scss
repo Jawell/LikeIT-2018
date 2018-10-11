@@ -1,0 +1,46 @@
+@media screen and (orientation: portrait) {
+  .highlight {
+    color: $highlight;
+  }
+
+  .headerlight {
+    color: $header;
+  }
+
+  #register {
+    text-decoration: none;
+    color: black;
+    font-family: "circe-bold";
+    font-size: 4.444vw;
+    padding: 3.772vw 26.3055vw 3.772vw 26.3055vw;
+    background-color: $highlight;
+    box-shadow: 0 0 15px rgba(251, 171, 24, 0.54);
+  }
+
+  #Chance {
+    position: relative;
+    z-index: 1;
+    margin-top: -50vw;
+    text-align: center;
+
+    #people {
+      height: 143.888vw;
+      background: url("./assets/chance-mobile.png");
+      background-repeat: round;
+      border-bottom: 3px solid $header;
+
+      display: grid;
+      align-items: end;
+      padding-bottom: 25.777vw;
+    }
+
+    p {
+      font-family: "furore";
+      font-size: 4.444vw;
+      color: $main;
+      text-align: center;
+      padding-top: 7.5vw;
+      margin-bottom: 7.222vw;
+    }
+  }
+}
