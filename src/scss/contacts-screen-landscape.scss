@@ -37,11 +37,14 @@
         div {
           display: grid;
           grid-template-areas: "symbol text";
+          grid-column-gap: 1.145vw;
           justify-content: start;
         }
 
         div img {
           grid-area: symbol;
+          width: 1.302vw;
+          height: auto;
         }
 
         div p {
