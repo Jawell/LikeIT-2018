@@ -1,5 +1,8 @@
 @media screen and (orientation: landscape) {
   #partners {
+    position: relative;
+    z-index: 2;
+
     .mobile-partners {
       display: none;
     }

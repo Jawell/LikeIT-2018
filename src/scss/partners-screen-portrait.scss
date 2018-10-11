@@ -1,5 +1,7 @@
 @media screen and (orientation: portrait) {
   #partners {
+    position: relative;
+    z-index: 2;
 
     background: url("./assets/partners-back-mobile.svg") no-repeat;
     background-position-x: -3.5vw;
