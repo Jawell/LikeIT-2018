@@ -1,7 +1,12 @@
 import React from 'react';
+import {timer} from '../modules/Timer';
 
 class Header extends React.Component
 {
+  componentDidMount() {
+    timer()
+  }
+
     render() {
         return (
             <sector className="header">
@@ -14,15 +19,15 @@ class Header extends React.Component
                             <p>До конца <span className="highlight-text">регистрации</span> осталось</p>
                             <div>
                                 <div className="timer-block day">
-                                    <p className="digit">32</p>
+                                    <p id="day" className="digit">32</p>
                                     <p className="word">дней</p>
                                 </div>
                                 <div className="timer-block hour">
-                                    <p className="digit">16</p>
+                                    <p id="hour" className="digit">16</p>
                                     <p className="word">часов</p>
                                 </div>
                                 <div className="timer-block second">
-                                    <p className="digit">44</p>
+                                    <p id="second" className="digit">44</p>
                                     <p className="word">секунд</p>
                                 </div>
                             </div>
