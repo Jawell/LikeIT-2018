@@ -8,6 +8,7 @@ import DividerStraight from './modules/DividerStraight';
 import Organizers from './modules/Organizers';
 import Partners from './modules/Partners';
 import Chance from './modules/Chance';
+import Contacts from './modules/Contacts';
 
 class App extends Component
 {
@@ -23,6 +24,7 @@ class App extends Component
         <Organizers/>
         <Partners/>
         <Chance/>
+        <Contacts/>
       </div>
     );
   }
