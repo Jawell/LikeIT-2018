@@ -19,7 +19,7 @@ class Contacts extends React.Component
               <p className="mo-mobile"><span>главный организатор</span></p>
               <div>
                 <p className="mo"><span>главный организатор</span></p>
-                <p>Александр Лаговский</p>
+                <p style={name}>Александр Лаговский</p>
                 <div>
                   <img src={Phone} alt={Phone}/>
                   <p>+38 (068) 927 33 47</p>
@@ -36,7 +36,7 @@ class Contacts extends React.Component
               <p className="mo-mobile"><span>корпоративные связи</span></p>
               <div>
                 <p className="mo"><span>корпоративные связи</span></p>
-                <p>Катерина Назаренко</p>
+                <p style={name}>Катерина Назаренко</p>
                 <div>
                   <img src={Phone} alt={Phone}/>
                   <p>+38 (093) 414 00 48</p>
@@ -53,5 +53,9 @@ class Contacts extends React.Component
     )
   }
 }
+
+const name = {
+  color: "white"
+};
 
 export default Contacts;
