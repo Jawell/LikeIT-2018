@@ -1,5 +1,4 @@
 import React from 'react';
-import People from '../assets/chance.png';
 
 class Chance extends React.Component
 {
