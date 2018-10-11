@@ -53,7 +53,7 @@ class About extends React.Component
               <div id="participation" className="cell-info">
                 <img src={Computer} alt={Computer} className="img-field"/>
                 <div className="short-info-cell">
-                  <p><span className="header-column">участие бесплатное</span></p>
+                  <p><span style={involvement} className="header-column">участие бесплатное</span></p>
                 </div>
               </div>
 
@@ -72,5 +72,9 @@ class About extends React.Component
     )
   }
 }
+
+const involvement = {
+  color: "white"
+};
 
 export default About;
