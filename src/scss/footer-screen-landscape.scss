@@ -22,12 +22,12 @@
         a {
           font-family: "circe-light";
           font-size: 0.833vw;
-          color: white;
+          color: $main;
           text-decoration: none;
         }
 
         a:hover {
-          color: white;
+          color: $main;
         }
       }
 
@@ -71,7 +71,7 @@
 
     #copyright {
       grid-area: copyright;
-      color: white;
+      color: $main;
     }
 
     #likeit {
