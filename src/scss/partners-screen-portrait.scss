@@ -2,18 +2,27 @@
   #partners {
     position: relative;
     z-index: 2;
+    text-align: center;
 
     background: url("./assets/partners-back-mobile.svg") no-repeat;
     background-position-x: -3.5vw;
     background-size: 105vw;
     height: 170.27vw;
 
+    #become-partner {
+      display: none;
+    }
+
+    #become-partner-mobile {
+      padding: 3.772vw 22.1055vw 3.772vw 22.1055vw;
+    }
+
     .partners {
-      padding-top: 21.333vw;
+      padding-top: 8.333vw;
     }
 
     .mobile-partners {
-      text-align: center;
+      margin-bottom: 9.722vw;
 
       img {
         width: 37.777vw;

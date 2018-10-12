@@ -30,7 +30,7 @@ class Partners extends React.Component {
               <img src={GBKSoft} alt={GBKSoft}/>
             </div>
 
-            <a href="#contacts" id="register">Стать партнером</a>
+            <a href="#contacts" className="button" id="become-partner">Стать партнером</a>
 
             <div className="mobile-partners">
               <img src={Apriorit} alt={Apriorit}/>
@@ -42,6 +42,8 @@ class Partners extends React.Component {
               <img src={Ubisoft} alt={Ubisoft}/>
               <img src={GBKSoft} alt={GBKSoft}/>
             </div>
+
+            <a href="#contacts" className="button" id="become-partner-mobile">Стать партнером</a>
           </div>
         </div>
       </section>
