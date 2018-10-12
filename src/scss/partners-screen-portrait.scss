@@ -6,8 +6,13 @@
 
     background: url("./assets/partners-back-mobile.svg") no-repeat;
     background-position-x: -3.5vw;
-    background-size: 105vw;
+    background-size: 107vw;
     height: 170.27vw;
+
+    .about-header {
+      margin-top: 14vw;
+      margin-bottom: 11.5vw;
+    }
 
     #become-partner {
       display: none;
@@ -22,7 +27,7 @@
     }
 
     .mobile-partners {
-      margin-bottom: 9.722vw;
+      margin-bottom: 6vw;
 
       img {
         width: 37.777vw;

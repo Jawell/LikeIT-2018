@@ -1,5 +1,10 @@
 @media screen and (orientation: landscape) {
   #organizers {
+    .about-header {
+      margin-top: 0;
+      margin-bottom: 0.9vw;
+    }
+
     .left-wrapper{
       width: 79.795vw;
       position: relative;
@@ -7,10 +12,6 @@
 
     #organizers-text-mobile {
       display: none;
-    }
-
-    .about-header {
-      margin-bottom: 0;
     }
 
     #organizers-info {
@@ -46,8 +47,8 @@
         height: 27.54vw;
         background: #FBAB18;
         box-sizing: border-box;
-        -webkit-clip-path: polygon(0 0, 93% 10%, 100% 90%, 0 100%);
-        clip-path: polygon(0 0, 93% 10%, 100% 90%, 0 100%);
+        -webkit-clip-path: polygon(0 0, 91.6% 10%, 100% 90%, 0 100%);
+        clip-path: polygon(0 0, 91.6% 10%, 100% 90%, 0 100%);
       }
 
       #shadow-img img {
@@ -56,15 +57,15 @@
         left: 0;
         width: 49.791vw;
         height: 27.239vw;
-        -webkit-clip-path: polygon(0 0, 93% 10%, 100% 90%, 0 100%);
-        clip-path: polygon(0 0, 93% 10%, 100% 90%, 0 100%);
+        -webkit-clip-path: polygon(0 0, 91.5% 10%, 100% 90%, 0 100%);
+        clip-path: polygon(0 0, 91.5% 10%, 100% 90%, 0 100%);
       }
 
       #best-logo-big {
         width: 31.927vw;
         height: auto;
         position: absolute;
-        right: -9.854vw;
+        right: -12.85vw;
         top: -2.333vw;
       }
     }

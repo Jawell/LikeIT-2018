@@ -1,17 +1,19 @@
 @media screen and (orientation: landscape) {
+  #about {
+    .about-header {
+      margin-top: 2.9vw;
+      margin-bottom: 4.27vw;
+    }
+  }
+
   .header-column-mobile {
     display: none;
   }
 
-  .about-header {
-    margin-top: 3.229vw;
-    margin-bottom: 4.27vw;
-  }
-
   #boxman {
     position: absolute;
-    top: 4.791vw;
-    right: 1.718vw;
+    top: 4.29vw;
+    right: 0.61vw;
 
     img:first-child {
       height: 22.395vw;
@@ -52,11 +54,17 @@
       }
     }
 
+    .short-info-cell p {
+      font-family: "circe-light";
+      color: $main;
+      font-size: 1.145vw;
+    }
+
     #full-info {
       display: grid;
       grid-template-areas: "img text";
       grid-template-columns: 5.208vw 24.739vw;
-      margin-bottom: 1.458vw;
+      margin-bottom: 0.85vw;
     }
 
     .img-field {
@@ -68,6 +76,7 @@
     .text-info {
       display: grid;
       grid-area: text;
+      line-height: 1.309vw;
     }
 
     #short-info {
@@ -75,7 +84,7 @@
       grid-template-areas:  "calendar place"
                             "participation num";
       grid-template-columns:  20.364vw 20.364vw;
-      grid-row-gap: 3.281vw;
+      grid-row-gap: 2.9vw;
 
       img {
         grid-area: img;

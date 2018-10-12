@@ -1,6 +1,11 @@
 @media screen and (orientation: portrait) {
   #organizers {
-    margin-bottom: 5vw;
+    margin-bottom: 27vw; //5vw
+
+    .about-header {
+      margin-top: 3.6vw;
+      margin-bottom: 3.5vw;
+    }
 
     #organizers-text-mobile p {
       font-family: "circe-light";
@@ -8,6 +13,7 @@
       text-align: left;
       margin-left: 4.444vw;
       margin-right: 4.444vw;
+      line-height: 6.3vw;
 
       .headerlight {
         font-family: "circe-bold";
@@ -27,10 +33,6 @@
     .left-wrapper{
       width: 79.795vw;
       position: relative;
-    }
-
-    .about-header {
-      margin-bottom: 0;
     }
 
     #organizers-info {
@@ -80,8 +82,8 @@
         width: 93.555vw;
         height: auto;
         position: absolute;
-        right: -16.4vw;
-        bottom: 20.6vw;
+        right: -16.9vw;
+        bottom: -104.2vw;
       }
     }
   }

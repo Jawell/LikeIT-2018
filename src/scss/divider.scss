@@ -9,7 +9,7 @@
 
 @media screen and (orientation: portrait){
   #divider-poly {
-    margin-top: 8.611vw;
+    margin-top: 0;
 
     div {
       background: url("./assets/divider-poly-mobile.svg") no-repeat;
@@ -23,7 +23,7 @@
 
 @media screen and (orientation: landscape){
   #divider-poly {
-    margin-top: 6.510vw;
+    margin-top: 6.3vw;
 
     div {
       background: url("./assets/divider-poly.svg") no-repeat;
@@ -37,7 +37,7 @@
 
 @media screen and (orientation: portrait){
   #divider-straight {
-    margin-top: 8.611vw;
+    margin-top: 13.5vw;
 
     div {
       background: url("./assets/divider-straight-mobile.svg") no-repeat;
@@ -51,7 +51,7 @@
 
 @media screen and (orientation: landscape){
   #divider-straight {
-    margin-top: 0.444vw;
+    margin-top: 1vw;
 
     div {
       background: url("./assets/divider-straight.svg") no-repeat;

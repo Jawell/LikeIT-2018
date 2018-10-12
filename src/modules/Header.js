@@ -9,7 +9,7 @@ class Header extends React.Component
 
     render() {
         return (
-            <sector className="header">
+            <section id="header">
                 <div className="header-background">
                     <div className="wrapper">
                         <div className="logo"/>
@@ -35,7 +35,7 @@ class Header extends React.Component
                         </div>
                     </div>
                 </div>
-            </sector>
+            </section>
         );
     }
 }

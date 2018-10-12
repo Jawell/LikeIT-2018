@@ -24,7 +24,7 @@ class Partners extends React.Component {
               <img src={Incode} alt={Incode}/>
               <img src={Betroot} alt={Betroot}/>
             </div>
-            <div className="line">
+            <div className="line last">
               <img src={SPro} alt={SPro}/>
               <img src={Ubisoft} alt={Ubisoft}/>
               <img src={GBKSoft} alt={GBKSoft}/>

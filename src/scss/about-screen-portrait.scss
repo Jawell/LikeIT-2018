@@ -3,9 +3,11 @@
     display: none;
   }
 
-  .about-header {
-    margin-top: 8.888vw;
-    margin-bottom: 8.888vw;
+  #about {
+    .about-header {
+      margin-top: 8.888vw;
+      margin-bottom: 6.4vw;
+    }
   }
 
   .about-body {
@@ -42,11 +44,12 @@
 
       .text-info {
         grid-area: text;
-        margin-bottom: 4.722vw;
+        margin-bottom: 2.5vw;
       }
 
       .text-info p {
         text-align: left;
+        line-height: 5.6vw;
       }
 
       .header-column {
