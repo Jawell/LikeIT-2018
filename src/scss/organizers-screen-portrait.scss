@@ -2,6 +2,28 @@
   #organizers {
     margin-bottom: 5vw;
 
+    #organizers-text-mobile p {
+      font-family: "circe-light";
+      font-size: 4.444vw;
+      text-align: left;
+      margin-left: 4.444vw;
+      margin-right: 4.444vw;
+
+      .headerlight {
+        font-family: "circe-bold";
+        color: $header;
+      }
+
+      .highlight {
+        font-family: "circe-extrabold";
+        color: $highlight;
+      }
+    }
+
+    #organizers-text-mobile p:not(:last-child) {
+      margin-bottom: 5.555vw;
+    }
+
     .left-wrapper{
       width: 79.795vw;
       position: relative;
@@ -12,19 +34,8 @@
     }
 
     #organizers-info {
-      .headerlight {
-        font-family: "circe-bold";
-        color: $header;
-      }
-
-      .highlight {
-        font-family: "circe-extrabold";
-        color: $highlight;
-      }
-
       div:last-child {
-        width: 100vw;
-        //TODO: max-width: 100%;
+        display: none;
 
         .wrapper-mobile {
           width: 91.111vw;
