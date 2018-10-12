@@ -40,12 +40,12 @@
       .link a {
         font-family: "circe-light";
         font-size: 4.444vw;
-        color: $main;
+        color: $header;
         text-decoration: none;
       }
 
       .link a:hover {
-        color: $main;
+        color: $header;
       }
 
       .link img {
@@ -55,7 +55,7 @@
       #copyright-mobile {
         font-family: "circe-light";
         font-size: 4.444vw;
-        color: $main;
+        color: $header;
         padding-bottom: 3.611vw;
       }
     }

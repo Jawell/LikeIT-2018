@@ -55,7 +55,7 @@ class Contacts extends React.Component
 }
 
 const name = {
-  color: "#00A793"
+  color: "white"
 };
 
 export default Contacts;
