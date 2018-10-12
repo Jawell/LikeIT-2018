@@ -30,6 +30,8 @@ class Partners extends React.Component {
               <img src={GBKSoft} alt={GBKSoft}/>
             </div>
 
+            <a href="#contacts" id="register">Стать партнером</a>
+
             <div className="mobile-partners">
               <img src={Apriorit} alt={Apriorit}/>
               <img src={Microsoft} alt={Microsoft}/>
