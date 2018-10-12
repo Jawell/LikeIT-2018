@@ -15,7 +15,7 @@ class Partners extends React.Component {
         <div className="wrapper">
           <div className="partners">
             <div className="about-header block-header">
-              <p><span>&#62;</span><span> партнеры</span></p>
+              <p><div/><span> партнеры</span></p>
             </div>
             <div className="line">
               <img src={Apriorit} alt={Apriorit}/>

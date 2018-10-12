@@ -27,13 +27,15 @@ body {
     p {
       font-family: "furore";
 
-      span:first-child {
-        color: $highlight;
-        font-size: 2.74vw;
+      div {
+        display: inline-block;
         vertical-align: middle;
+        background: url("./assets/arrow.svg");
+        width: 1.666vw;
+        height: 2.916vw;
       }
 
-      span:last-child {
+      span {
         font-size: 2.291vw;
         vertical-align: middle;
         color: $header;
