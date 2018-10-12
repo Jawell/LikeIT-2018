@@ -10,7 +10,7 @@ class Category extends React.Component
       <section id="category">
         <div className="wrapper">
           <div className="about-header block-header">
-            <p><div/><span> категории</span></p>
+            <div><div/><span> категории</span></div>
           </div>
           <div id="category-info">
 

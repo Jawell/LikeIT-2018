@@ -14,7 +14,7 @@ class About extends React.Component
       <section id="about">
         <div className="wrapper">
           <div className="about-header block-header">
-            <p><div/><span> О проекте</span></p>
+            <div><div/><span> О проекте</span></div>
           </div>
           <div id="boxman">
             <img src={Boxman} alt={Boxman}/>

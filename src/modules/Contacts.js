@@ -11,7 +11,7 @@ class Contacts extends React.Component
       <section id="contacts">
         <div className="wrapper">
           <div className="about-header block-header">
-            <p><div/><span> контакты</span></p>
+            <div><div/><span> контакты</span></div>
           </div>
           <div id="contacts-body">
             <div className="contact">

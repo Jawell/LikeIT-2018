@@ -9,7 +9,7 @@ class Organizers extends React.Component
       <section id="organizers">
         <div className="wrapper">
           <div className="about-header block-header">
-            <p><div/><span> организаторы</span></p>
+            <div><div/><span> организаторы</span></div>
           </div>
         </div>
         <div className="left-wrapper">
