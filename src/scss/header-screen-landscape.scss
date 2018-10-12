@@ -81,5 +81,24 @@
         margin-left: 3.91vw;
       }
     }
+
+    .header-info > div:last-child {
+      margin-top: 2.5vw;
+
+      p {
+        font-family: 'circe-extralight';
+        font-size: 0.833vw;
+      }
+
+      img {
+        width: 0.5vw;
+        height: auto;
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+      }
+    }
   }
 }

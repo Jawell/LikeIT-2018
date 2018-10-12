@@ -1,6 +1,8 @@
 import React from 'react';
 import {timer} from '../modules/Timer';
 
+import Arrow from '../assets/arrow.svg';
+
 class Header extends React.Component
 {
   componentDidMount() {
@@ -32,6 +34,10 @@ class Header extends React.Component
                                 </div>
                             </div>
                             <a href="https://docs.google.com/forms/d/1yZTTsO9liKYFruzPYB5mV3FOW6L-8oLYgVwVJ8LJbmQ/edit?usp=sharing" className="button">Регистрация</a>
+                            <div>
+                              <p>Scroll down</p>
+                              <img src={Arrow} alt={Arrow}/>
+                            </div>
                         </div>
                     </div>
                 </div>
