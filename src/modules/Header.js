@@ -31,7 +31,7 @@ class Header extends React.Component
                                     <p className="word">секунд</p>
                                 </div>
                             </div>
-                            <a href="https://docs.google.com/forms/d/1yZTTsO9liKYFruzPYB5mV3FOW6L-8oLYgVwVJ8LJbmQ/edit?usp=sharing" id="register">Регистрация</a>
+                            <a href="https://docs.google.com/forms/d/1yZTTsO9liKYFruzPYB5mV3FOW6L-8oLYgVwVJ8LJbmQ/edit?usp=sharing" className="button">Регистрация</a>
                         </div>
                     </div>
                 </div>

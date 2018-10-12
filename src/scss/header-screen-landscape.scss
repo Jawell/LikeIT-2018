@@ -80,16 +80,6 @@
       .timer-block:not(:first-child) {
         margin-left: 3.91vw;
       }
-
-      #register {
-        text-decoration: none;
-        color: black;
-        font-family: "circe-bold";
-        font-size: 0.833vw;
-        padding: 0.67vw 4.9vw 0.67vw 4.9vw;
-        background-color: $highlight;
-        box-shadow: 0 0 15px rgba(251, 171, 24, 0.54);
-      }
     }
   }
 }

@@ -16,11 +16,21 @@ body {
   background: url("./assets/logo.svg");
 }
 
-@media screen and (orientation: landscape){
+@media screen and (orientation: landscape) {
   .wrapper {
     width: 60.4vw;
     margin: 0 auto;
     position: relative;
+  }
+
+  .button {
+    text-decoration: none;
+    color: black;
+    font-family: "circe-bold";
+    font-size: 0.833vw;
+    padding: 0.67vw 4.9vw 0.67vw 4.9vw;
+    background-color: $highlight;
+    box-shadow: 0 0 15px rgba(251, 171, 24, 0.54);
   }
 
   .block-header {
@@ -49,6 +59,16 @@ body {
   .wrapper {
     margin-right: 4.444vw;
     margin-left: 4.444vw;
+  }
+
+  .button {
+    text-decoration: none;
+    color: black;
+    font-family: "circe-bold";
+    font-size: 4.444vw;
+    padding: 3.772vw 26.3055vw 3.772vw 26.3055vw;
+    background-color: $highlight;
+    box-shadow: 0 0 15px rgba(251, 171, 24, 0.54);
   }
 
   .block-header {
