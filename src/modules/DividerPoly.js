@@ -4,7 +4,7 @@ class DividerPoly extends React.Component
 {
   render() {
     return(
-      <section id="divider_1">
+      <section id="divider-poly">
         <div/>
       </section>
     )

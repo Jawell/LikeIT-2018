@@ -8,11 +8,11 @@
 }
 
 @media screen and (orientation: portrait){
-  #divider_1 {
+  #divider-poly {
     margin-top: 8.611vw;
 
     div {
-      background: url("./assets/divider-poly-mobile.svg");
+      background: url("./assets/divider-poly-mobile.svg") no-repeat;
       background-size: 100vw;
       width: 100vw;
       height: 14.722vw;
@@ -22,11 +22,11 @@
 }
 
 @media screen and (orientation: landscape){
-  #divider_1 {
+  #divider-poly {
     margin-top: 6.510vw;
 
     div {
-      background: url("./assets/divider-poly.svg");
+      background: url("./assets/divider-poly.svg") no-repeat;
       background-size: 100vw;
       width: 100vw;
       height: 7.239vw;
@@ -36,11 +36,11 @@
 }
 
 @media screen and (orientation: portrait){
-  #divider_2 {
+  #divider-straight {
     margin-top: 8.611vw;
 
     div {
-      background: url("./assets/divider-straight-mobile.svg");
+      background: url("./assets/divider-straight-mobile.svg") no-repeat;
       background-size: 100vw;
       width: 100vw;
       height: 20.555vw;
@@ -50,11 +50,11 @@
 }
 
 @media screen and (orientation: landscape){
-  #divider_2 {
+  #divider-straight {
     margin-top: 0.444vw;
 
     div {
-      background: url("./assets/divider-straight.svg");
+      background: url("./assets/divider-straight.svg") no-repeat;
       background-size: 100vw;
       width: 100vw;
       height: 7.708vw;
