@@ -38,7 +38,7 @@ class About extends React.Component
                 <img src={Calendar} alt={Calendar} className="img-field"/>
                 <div className="short-info-cell">
                   <p><span className="highlight header-column">когда?</span></p>
-                  <p><span className="headerlight bold-inside">24-25</span> ноября</p>
+                  <p>30 октября - 1 ноября</p>
                 </div>
               </div>
 

@@ -34,7 +34,7 @@
     p {
       font-family: "circe-light";
       color: $main;
-      font-size: 0.833vw;
+      font-size: 1vw;
 
       .highlight {
         color: $highlight;
@@ -63,7 +63,7 @@
     #full-info {
       display: grid;
       grid-template-areas: "img text";
-      grid-template-columns: 5.208vw 24.739vw;
+      grid-template-columns: 5.208vw 26vw;
       margin-bottom: 0.85vw;
     }
 
