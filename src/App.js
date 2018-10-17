@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.scss';
-import {fbPixel} from "./modules/facebook-pixel";
+import {fbPixel} from "./modules/Facebook-pixel";
 
 import Header from './modules/Header';
 import About from './modules/About';
