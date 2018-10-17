@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.scss';
+import {fbPixel} from "./modules/facebook-pixel";
 
 import Header from './modules/Header';
 import About from './modules/About';
@@ -14,6 +15,9 @@ import Footer from './modules/Footer';
 
 class App extends Component
 {
+  componentDidMount() {
+    fbPixel()
+  }
   render()
   {
     return (
