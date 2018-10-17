@@ -36,14 +36,14 @@ class Contacts extends React.Component
               <p className="mo-mobile"><span>корпоративные связи</span></p>
               <div>
                 <p className="mo"><span>корпоративные связи</span></p>
-                <p style={name}>Катерина Назаренко</p>
+                <p style={name}>Максим Войтих</p>
                 <div>
                   <img src={Phone} alt={Phone}/>
-                  <p>+38 (093) 414 00 48</p>
+                  <p>+38 (063) 968 60 09</p>
                 </div>
                 <div>
                   <img src={Email} alt={Email}/>
-                  <p>kateryna.nazarenko@BEST.eu.org</p>
+                  <p>maxim.voytih@BEST.eu.org</p>
                 </div>
               </div>
             </div>
