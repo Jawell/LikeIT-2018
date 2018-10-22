@@ -26,7 +26,7 @@ class About extends React.Component
               <p className="header-column-mobile"><span className="highlight">что?</span></p>
               <div className="text-info">
                 <p><span className="highlight header-column">что?</span></p>
-                <p>Мероприятие состоит из двух частей: <span className="headerlight bold-inside">Ярмарки Карьерв</span> и <span className="headerlight bold-inside">Хакатона</span>.</p>
+                <p>Мероприятие состоит из двух частей: <span className="headerlight bold-inside">Ярмарки Карьеры</span> и <span className="headerlight bold-inside">Хакатона</span>.</p>
                 <p><span className="highlight bold-inside">Ярмарка Карьеры</span> - это 3-часовая презентация ведущих IT-компаний Украины и мира.</p>
                 <p><span className="highlight bold-inside">Хакатон</span> - «марафон программистов», где небольшие команды специалисты из разных областей разработки программного обеспечения (программисты, дизайнеры, менеджеры) сообща работают над решением какой-либо проблемы.</p>
               </div>
@@ -46,7 +46,7 @@ class About extends React.Component
                 <img src={Placeholder} alt={Placeholder} className="img-field"/>
                 <div className="short-info-cell">
                   <p><span className="highlight header-column">где?</span></p>
-                  <p>Запорожье, ул.Победы 70Б, "Казак-палац"</p>
+                  <p>Запорожье, ул.Победы 70Б, "Козак-палац"</p>
                 </div>
               </div>
 
