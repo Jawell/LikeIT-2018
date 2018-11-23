@@ -5,9 +5,9 @@
     text-align: center;
 
     background: url("./assets/partners-back-mobile.svg") no-repeat;
-    background-position-x: -3.5vw;
-    background-size: 107vw;
-    height: 170.27vw;
+    background-position-x: -16.5vw;
+    background-size: 131.5vw;
+    height: 209vw;
 
     .about-header {
       margin-top: 14vw;
@@ -32,16 +32,29 @@
       img {
         width: 37.777vw;
         height: auto;
-        margin-bottom: 5vw;
+        //margin-bottom: 5vw;
       }
 
-      img:nth-child(odd) {
-        margin-right: 7.733vw;
-      }
+      //img:nth-child(odd) {
+      //  margin-right: 7.733vw;
+      //}
     }
 
     .line {
       display: none;
+    }
+
+    .line-mobile {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      align-items: center;
+      justify-items: center;
+      grid-column-gap: 6.944vw;
+      margin-bottom: 6.666vw;
+    }
+
+    .line-mobile:last-child {
+      margin-bottom: 18vw;
     }
   }
 }
