@@ -7,17 +7,17 @@ import LightIT from "../assets/partners/lightit.svg";
 import Computools from "../assets/partners/comp.svg";
 import Together from "../assets/partners/together.svg";
 import PowerCode from "../assets/partners/pcode.svg";
-import DS from "../assets/partners/ds.svg";
-import ASK from "../assets/partners/ask.svg";
-import Yola from "../assets/partners/yola.svg";
-import Fest from "../assets/partners/startup.svg";
-import Sync from "../assets/partners/sync.svg";
+//import DS from "../assets/partners/ds.svg";
+//import ASK from "../assets/partners/ask.svg";
+//import Yola from "../assets/partners/yola.svg";
+//import Fest from "../assets/partners/startup.svg";
+//import Sync from "../assets/partners/sync.svg";
 import Prof from "../assets/partners/prof.svg";
 import ZNTU from "../assets/partners/zntu.svg";
-import Level from "../assets/partners/levelup.svg";
-import Step from "../assets/partners/itstep.svg";
-import Kisson from "../assets/partners/kisson.svg";
-import VP from "../assets/partners/vp.svg";
+//import Level from "../assets/partners/levelup.svg";
+//import Step from "../assets/partners/itstep.svg";
+//import Kisson from "../assets/partners/kisson.svg";
+//import VP from "../assets/partners/vp.svg";
 
 class Partners extends React.Component {
   constructor(state) {

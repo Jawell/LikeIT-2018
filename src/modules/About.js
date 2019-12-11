@@ -33,7 +33,7 @@ class About extends React.Component
             </div>
 
             <div id="short-info">
-
+/*
               <div id="calendar" className="cell-info">
                 <img src={Calendar} alt={Calendar} className="img-field"/>
                 <div className="short-info-cell">
@@ -49,14 +49,14 @@ class About extends React.Component
                   <p>Запорожье, ул.Победы 70Б, "Козак-палац"</p>
                 </div>
               </div>
-
+*/
               <div id="participation" className="cell-info">
                 <img src={Computer} alt={Computer} className="img-field"/>
                 <div className="short-info-cell">
                   <p><span className="header-column">участие бесплатное</span></p>
                 </div>
               </div>
-
+/*
               <div id="num" className="cell-info">
                 <img src={Programmer} alt={Programmer} className="img-field"/>
                 <div className="short-info-cell">
@@ -64,7 +64,7 @@ class About extends React.Component
                   <p><span className="headerlight bold-inside">100</span> человек</p>
                 </div>
               </div>
-
+*/
             </div>
           </div>
         </div>

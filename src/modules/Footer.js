@@ -16,7 +16,7 @@ class Footer extends React.Component
               <img src={FB} alt={FB}/>
               <a href="https://facebook.com/BEST.Zaporizhzhya">facebook.com/BEST.Zaporizhzhya</a>
             </div>
-
+//telegram
             <div className="link" id="inst">
               <img src={Instagram} alt={Instagram}/>
               <a href="https://instagram.com/best_zaporizhzhya">instagram.com/best_zaporizhzhya</a>
