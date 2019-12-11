@@ -13,7 +13,7 @@ body {
 }
 
 .logo {
-  background: url("./assets/logo.svg");
+  background: url("../assets/logo.svg");
 }
 
 @media screen and (orientation: landscape) {
@@ -41,7 +41,7 @@ body {
       div {
         display: inline-block;
         vertical-align: middle;
-        background: url("./assets/arrow.svg");
+        background: url("../assets/arrow.svg");
         width: 1.666vw;
         height: 2.916vw;
       }
@@ -78,7 +78,7 @@ body {
       div {
         display: inline-block;
         vertical-align: middle;
-        background: url("./assets/arrow.svg");
+        background: url("../assets/arrow.svg");
         width: 4.722vw;
         height: 8.611vw;
       }
