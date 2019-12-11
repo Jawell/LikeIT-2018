@@ -18,7 +18,10 @@ class Header extends React.Component
                         <div className="header-info">
                             <p><span className="highlight-text">IT-хакатон в Запорожье</span></p>
                             <p><span className="highlight-text">&#60;</span><span className="header-text">BEST</span><span style={competition} className="normal-text"> Competition<br/>for </span><span className="header-text">Geeks</span><span className="highlight-text">&#47;&#62;</span></p>
-                            {/*<p>До конца <span className="highlight-text">регистрации</span> осталось</p>
+                            
+                            //LIKE IT
+                            //CODE IT
+                            <p>До конца <span className="highlight-text">регистрации</span> осталось</p>
                             <div>
                                 <div className="timer-block day">
                                     <p id="day" className="digit">32</p>

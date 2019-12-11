@@ -7,7 +7,7 @@ class Category extends React.Component
 {
   render() {
     return(
-      <section id="category">
+   /*   <section id="category">
         <div className="wrapper">
           <div className="about-header block-header">
             <div><div/><span> категории</span></div>
@@ -40,7 +40,7 @@ class Category extends React.Component
 
           </div>
         </div>
-      </section>
+      </section>*/
     )
   }
 }
