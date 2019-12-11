@@ -1,0 +1,64 @@
+.poly {
+  -moz-transform: scale(1,-1);
+  -webkit-transform: scale(1, -1);
+  -o-transform: scale(1, -1);
+  transform: scale(1, -1);
+  filter: FlipV;
+  -ms-filter: "FlipV";
+}
+
+@media screen and (orientation: portrait){
+  #divider-poly {
+    margin-top: 0;
+
+    div {
+      background: url("../assets/divider-poly-mobile.svg") no-repeat;
+      background-size: 100vw;
+      width: 100vw;
+      height: 14.722vw;
+      max-width: 100%;
+    }
+  }
+}
+
+@media screen and (orientation: landscape){
+  #divider-poly {
+    margin-top: 6.3vw;
+
+    div {
+      background: url("../assets/divider-poly.svg") no-repeat;
+      background-size: 100vw;
+      width: 100vw;
+      height: 7.239vw;
+      max-width: 100%;
+    }
+  }
+}
+
+@media screen and (orientation: portrait){
+  #divider-straight {
+    margin-top: 13.5vw;
+
+    div {
+      background: url("../assets/divider-straight-mobile.svg") no-repeat;
+      background-size: 100vw;
+      width: 100vw;
+      height: 20.555vw;
+      max-width: 100%;
+    }
+  }
+}
+
+@media screen and (orientation: landscape){
+  #divider-straight {
+    margin-top: 1vw;
+
+    div {
+      background: url("../assets/divider-straight.svg") no-repeat;
+      background-size: 100vw;
+      width: 100vw;
+      height: 7.708vw;
+      max-width: 100%;
+    }
+  }
+}

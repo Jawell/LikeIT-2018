@@ -1,0 +1,105 @@
+@media screen and (orientation: landscape) {
+  #header {
+    .header-background {
+      background: url("../assets/header.svg") no-repeat;
+      background-size: 100vw;
+      background-position-x: -1vw;
+      height: 36.7vw;
+    }
+
+    .logo {
+      position: absolute;
+      top: 1.57vw;
+      width: 14.5vw;
+      height: 2.74vw;
+      background-repeat: no-repeat;
+     }
+
+    p {
+      text-align: center;
+      color: $main;
+    }
+
+    .header-info {
+      text-align: center;
+      padding-top: 14vw;
+
+      p:nth-child(1) {
+        font-family: "circe-light";
+        font-size: 1.23vw;
+      }
+
+      p:nth-child(2) {
+        font-family: "furore";
+        font-size: 2.32vw;
+        margin-bottom: 3.585vw;
+      }
+
+      p:nth-child(3) {
+        font-family: "furore";
+        font-size: 1.04vw;
+        margin-bottom: 1.366vw;
+      }
+
+      .header-text {
+        color: $header;
+      }
+
+      .highlight-text {
+        color: $highlight;
+      }
+
+      div {
+        text-align: center;
+        margin-bottom: 1.2vw;
+      }
+
+      .timer-block {
+        width: 7.3vw;
+        height: 4.7vw;
+        display: inline-block;
+        background-color: rgba(255, 255, 255, 0.75);
+
+        p:first-child {
+          margin-top: 0.26vw;
+        }
+
+        .digit {
+          font-family: "furore";
+          font-size: 2.3vw;
+          color: $header;
+          margin: 0;
+        }
+
+        .word {
+          font-family: "circe-regular";
+          font-size: 0.81vw;
+          color: black;
+        }
+      }
+
+      .timer-block:not(:first-child) {
+        margin-left: 3.91vw;
+      }
+    }
+
+    .header-info > div:last-child {
+      margin-top: 10.5vw;
+
+      p {
+        font-family: 'circe-extralight';
+        font-size: 0.833vw;
+      }
+
+      img {
+        width: 0.5vw;
+        height: auto;
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+      }
+    }
+  }
+}

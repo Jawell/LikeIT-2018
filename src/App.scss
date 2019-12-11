@@ -1,5 +1,23 @@
-$mainFont: #6b6b6b;
-$thirdFont: #e66565;
+$highlight: #FBAB18;
+$header: #00A793;
+$main: white;
 
 @import "scss/global";
 @import "scss/fonts";
+@import "scss/divider";
+@import "scss/header-screen-landscape";
+@import "scss/header-screen-portrait";
+@import "scss/about-screen-landscape";
+@import "scss/about-screen-portrait";
+@import "scss/category-screen-landscape";
+@import "scss/category-screen-portrait";
+@import "scss/organizers-screen-landscape";
+@import "scss/organizers-screen-portrait";
+@import "scss/partners-screen-landscape";
+@import "scss/partners-screen-portrait";
+@import "scss/chance-screen-landscape";
+@import "scss/chance-screen-portrait";
+@import "scss/contacts-screen-landscape";
+@import "scss/contacts-screen-portrait";
+@import "scss/footer-screen-landscape";
+@import "scss/footer-screen-portrait";

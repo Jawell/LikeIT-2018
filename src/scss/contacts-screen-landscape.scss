@@ -1,0 +1,84 @@
+@media screen and (orientation: landscape){
+  #contacts {
+    .mo-mobile {
+      display: none;
+    }
+
+    .about-header {
+      margin-top: 3.7vw;
+      margin-bottom: 3.27vw;
+    }
+
+    margin-bottom: 5.468vw;
+
+    #contacts-body {
+      display: grid;
+      grid-template-areas: "MO FR";
+      grid-template-columns: 1fr 1fr;
+
+      .contact {
+        display: grid;
+        grid-template-areas: "avatar text";
+        grid-template-columns: 9.375vw 1fr;
+        grid-column-gap: 0.8333vw;
+        align-items: center;
+
+        span {
+          color: $highlight;
+          font-family: 'furore';
+          font-size: 1.302vw;
+        }
+      }
+
+      .contact > img {
+        grid-area: avatar;
+        width: 9.375vw;
+        border-radius: 50%;
+      }
+
+      .contact > div {
+        grid-area: text;
+
+        div {
+          display: grid;
+          grid-template-areas: "symbol text";
+          grid-column-gap: 1.145vw;
+          justify-content: start;
+        }
+
+        div img {
+          grid-area: symbol;
+          width: 1.302vw;
+          height: auto;
+        }
+
+        div p {
+          grid-area: text;
+          font-size: 0.8333vw;
+        }
+      }
+
+      .contact > div > p {
+        margin-bottom: 0.697vw;
+      }
+
+      .contact > div > div:not(:last-child) {
+        margin-bottom: 0.937vw;
+      }
+
+      p {
+        color: $header;
+        font-family: "circe-light";
+        font-size: 1.302vw;
+      }
+    }
+
+    #contacts-body > div:first-child {
+      grid-area: MO;
+    }
+
+    #contacts-body > div:last-child {
+      grid-area: FR;
+    }
+  }
+}

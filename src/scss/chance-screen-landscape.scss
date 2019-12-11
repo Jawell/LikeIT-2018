@@ -1,0 +1,35 @@
+@media screen and (orientation: landscape) {
+  .highlight {
+    color: $highlight;
+  }
+
+  .headerlight {
+    color: $header;
+  }
+
+  #Chance {
+    position: relative;
+    z-index: 1;
+    margin-top: -7.5vw;
+    text-align: center;
+
+    #people {
+      height: 31.25vw;
+      background: url("../assets/chance.png") round;
+      border-bottom: 0.2vw solid $header;
+
+      display: grid;
+      align-items: center;
+    }
+
+    p {
+      font-family: "furore";
+      font-size: 1.562vw;
+      color: white;
+      text-align: center;
+      padding-top: 8.6vw;
+      margin-bottom: 2.8vw;
+      line-height: 2.1vw;
+    }
+  }
+}

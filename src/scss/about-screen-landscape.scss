@@ -1,0 +1,125 @@
+@media screen and (orientation: landscape) {
+  #about {
+    .about-header {
+      margin-top: 2.9vw;
+      margin-bottom: 4.27vw;
+    }
+  }
+
+  .header-column-mobile {
+    display: none;
+  }
+
+  #boxman {
+    position: absolute;
+    top: 4.29vw;
+    right: 0.61vw;
+
+    img:first-child {
+      height: 22.395vw;
+      width: 13.958vw;
+    }
+
+    img:last-child {
+      position: absolute;
+      width: 14.687vw;
+      height: 4.427vw;
+      bottom: 0;
+      right: 0;
+      z-index: -1;
+    }
+  }
+
+  .about-body {
+    p {
+      font-family: "circe-light";
+      color: $main;
+      font-size: 1vw;
+
+      .highlight {
+        color: $highlight;
+      }
+
+      .headerlight {
+        color: $header;
+      }
+
+      .header-column {
+        font-family: "furore";
+        font-size: 1.041vw;
+      }
+
+      .bold-inside {
+        font-family: "circe-bold";
+      }
+    }
+
+    .short-info-cell p {
+      font-family: "circe-light";
+      color: $main;
+      font-size: 1.145vw;
+    }
+
+    #full-info {
+      display: grid;
+      grid-template-areas: "img text";
+      grid-template-columns: 5.208vw 26vw;
+      margin-bottom: 0.85vw;
+    }
+
+    .img-field {
+      width: 3.125vw;
+      display: grid;
+      grid-area: img;
+    }
+
+    .text-info {
+      display: grid;
+      grid-area: text;
+      line-height: 1.309vw;
+    }
+
+    #short-info {
+      display: grid;
+      grid-template-areas:  "calendar place"
+                            "participation num";
+      grid-template-columns:  20.364vw 20.364vw;
+      grid-row-gap: 2.9vw;
+
+      img {
+        grid-area: img;
+      }
+
+      .short-info-cell {
+        grid-area: text;
+        align-self: center;
+      }
+
+      .cell-info {
+        grid-template-areas: "img text";
+        grid-template-columns: 5.208vw 15.364vw;
+        align-content: center;
+      }
+
+      #calendar {
+        display: grid;
+        grid-area: calendar;
+      }
+
+      #place {
+        display: grid;
+        grid-area: place;
+      }
+
+      #participation {
+        display: grid;
+        grid-area: participation;
+      }
+
+      #num {
+        display: grid;
+        grid-area: num;
+      }
+    }
+  }
+}

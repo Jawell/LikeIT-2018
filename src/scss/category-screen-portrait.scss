@@ -1,0 +1,67 @@
+@media screen and (orientation: portrait) {
+  #category {
+    .about-header {
+      margin-top: 4.1vw;
+      margin-bottom: 6.5vw;
+    }
+
+    #category-info {
+      .category {
+        display: grid;
+        grid-template-areas: "img text";
+        grid-column-gap: 6.944vw;
+        margin-bottom: 5.833vw;
+
+        .header-column {
+          font-family: "furore";
+          font-size: 5.555vw;
+        }
+
+        .highlight {
+          color: $highlight;
+        }
+
+        .category-text {
+          display: grid;
+          grid-area: text;
+          align-content: start;
+
+          p {
+            font-family: "circe-light";
+            font-size: 4.444vw;
+            font-weight: 300;
+            line-height: 5.555vw;
+            color: $main;
+            text-align: left;
+          }
+        }
+
+        img {
+          width: 14.722vw;
+          height: auto;
+          display: grid;
+          grid-area: img;
+        }
+
+        #mobile {
+          display: grid;
+          grid-area: mobile;
+        }
+
+        #web {
+          display: grid;
+          grid-area: web;
+        }
+
+        #data {
+          display: grid;
+          grid-area: data;
+        }
+      }
+
+      .category:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

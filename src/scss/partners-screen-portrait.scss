@@ -1,0 +1,60 @@
+@media screen and (orientation: portrait) {
+  #partners {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+
+    background: url("../assets/partners-back-mobile.svg") no-repeat;
+    background-position-x: -16.5vw;
+    background-size: 131.5vw;
+    height: 209vw;
+
+    .about-header {
+      margin-top: 14vw;
+      margin-bottom: 11.5vw;
+    }
+
+    #become-partner {
+      display: none;
+    }
+
+    #become-partner-mobile {
+      padding: 3.772vw 22.1055vw 3.772vw 22.1055vw;
+    }
+
+    .partners {
+      padding-top: 8.333vw;
+    }
+
+    .mobile-partners {
+      margin-bottom: 6vw;
+
+      img {
+        width: 37.777vw;
+        height: auto;
+        //margin-bottom: 5vw;
+      }
+
+      //img:nth-child(odd) {
+      //  margin-right: 7.733vw;
+      //}
+    }
+
+    .line {
+      display: none;
+    }
+
+    .line-mobile {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      align-items: center;
+      justify-items: center;
+      grid-column-gap: 6.944vw;
+      margin-bottom: 6.666vw;
+    }
+
+    .line-mobile:last-child {
+      margin-bottom: 18vw;
+    }
+  }
+}

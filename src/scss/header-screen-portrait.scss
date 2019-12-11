@@ -1,0 +1,102 @@
+@media screen and (orientation: portrait) {
+  .header-background {
+    background: url("../assets/header-mob.svg");
+    height: 160vw;
+    background-size: 100vw;
+  }
+
+  .logo {
+    position: absolute;
+    top: 4.45vw;
+    left: 4.45vw;
+    width: 46.944vw;
+    height: 8.888vw;
+  }
+
+  p {
+    text-align: center;
+    color: $main;
+  }
+
+  .header-info {
+    text-align: center;
+    padding-top: 45.5vw;
+
+    p:nth-child(1) {
+      font-family: "circe-light";
+      font-size: 6.666vw;
+    }
+
+    p:nth-child(2) {
+      font-family: "furore";
+      font-size: 8.055vw;
+      margin-bottom: 20.833vw;
+    }
+
+    p:nth-child(3) {
+      font-family: "furore";
+      font-size: 4.166vw;
+      margin-bottom: 6.3vw;
+    }
+
+    .header-text {
+      color: $header;
+    }
+
+    .highlight-text {
+      color: $highlight;
+    }
+
+    div {
+      text-align: center;
+      margin-bottom: 6.5vw;
+    }
+
+    .timer-block {
+      width: 19.444vw;
+      height: 13.333vw;
+      display: inline-block;
+      background-color: rgba(255, 255, 255, 0.75);
+
+      p:first-child {
+        margin-top: 1.35vw;
+      }
+
+      .digit {
+        font-family: "furore";
+        font-size: 5.833vw;
+        color: $header;
+        margin: 0;
+      }
+
+      .word {
+        font-family: "circe-regular";
+        font-size: 1.944vw;
+        color: black;
+      }
+    }
+
+    .timer-block:not(:first-child) {
+      margin-left: 12.2vw;
+    }
+  }
+
+  .header-info > div:last-child {
+    margin-top: 64.2vw;
+
+    p {
+      font-family: 'circe-extralight';
+      font-size: 4.4vw;
+    }
+
+    img {
+      width: 2.8vw;
+      height: auto;
+      transform: rotate(90deg);
+      -webkit-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+    }
+  }
+}
