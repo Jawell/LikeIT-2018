@@ -1,6 +1,6 @@
 @media screen and (orientation: portrait) {
   .header-background {
-    background: url("./assets/header-mob.svg");
+    background: url("../assets/header-mob.svg");
     height: 160vw;
     background-size: 100vw;
   }
@@ -20,7 +20,7 @@
 
   .header-info {
     text-align: center;
-    padding-top: 35.5vw;
+    padding-top: 45.5vw;
 
     p:nth-child(1) {
       font-family: "circe-light";
@@ -82,7 +82,7 @@
   }
 
   .header-info > div:last-child {
-    margin-top: 15.2vw;
+    margin-top: 64.2vw;
 
     p {
       font-family: 'circe-extralight';

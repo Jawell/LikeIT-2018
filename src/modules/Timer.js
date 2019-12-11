@@ -1,6 +1,6 @@
 export function timer() {
   let timeend= new Date();
-  timeend= new Date(2018, 10, 29, 23);
+  timeend= new Date(2018, 10, 28, 23);
 
   let min, hour, day, sec;
 

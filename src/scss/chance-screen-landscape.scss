@@ -15,8 +15,7 @@
 
     #people {
       height: 31.25vw;
-      background: url("./assets/chance.png");
-      background-repeat: round;
+      background: url("../assets/chance.png") round;
       border-bottom: 0.2vw solid $header;
 
       display: grid;
