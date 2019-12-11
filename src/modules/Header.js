@@ -1,13 +1,13 @@
 import React from 'react';
-import {timer} from '../modules/Timer';
+//import {timer} from '../modules/Timer';
 
 import Arrow from '../assets/arrow.svg';
 
 class Header extends React.Component
 {
-  componentDidMount() {
-    timer()
-  }
+  // componentDidMount() {
+  //   timer()
+  // }
 
     render() {
         return (
@@ -18,7 +18,7 @@ class Header extends React.Component
                         <div className="header-info">
                             <p><span className="highlight-text">IT-хакатон в Запорожье</span></p>
                             <p><span className="highlight-text">&#60;</span><span className="header-text">BEST</span><span style={competition} className="normal-text"> Competition<br/>for </span><span className="header-text">Geeks</span><span className="highlight-text">&#47;&#62;</span></p>
-                            <p>До конца <span className="highlight-text">регистрации</span> осталось</p>
+                            {/*<p>До конца <span className="highlight-text">регистрации</span> осталось</p>
                             <div>
                                 <div className="timer-block day">
                                     <p id="day" className="digit">32</p>
@@ -34,6 +34,7 @@ class Header extends React.Component
                                 </div>
                             </div>
                             <a href="https://docs.google.com/forms/d/1yZTTsO9liKYFruzPYB5mV3FOW6L-8oLYgVwVJ8LJbmQ/edit?usp=sharing" className="button">Регистрация</a>
+                            */}
                             <div>
                               <p>Scroll down</p>
                               <img src={Arrow} alt={Arrow}/>
