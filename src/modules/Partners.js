@@ -151,27 +151,20 @@ class Partners extends React.Component {
               <img style={this.state.landscape.gravity} src={Gravity} alt={Gravity}/>
               <img style={this.state.landscape.incode} src={Incode} alt={Incode}/>
               <img style={this.state.landscape.isd} src={ISD} alt={ISD}/>
+
+            </div>
+            <div className="line second">
+              <img style={this.state.landscape.pc} src={PowerCode} alt={PowerCode}/>
+              <img style={this.state.landscape.prof} src={Prof} alt={Prof}/>
+              <img style={this.state.landscape.zntu} src={ZNTU} alt={ZNTU}/>
+            </div>
+            <div className="line last">
               <img style={this.state.landscape.light} src={LightIT} alt={LightIT}/>
               <img style={this.state.landscape.comp} src={Computools} alt={Computools}/>
               <img style={this.state.landscape.together} src={Together} alt={Together}/>
             </div>
-            <div className="line second">
-              <img style={this.state.landscape.pc} src={PowerCode} alt={PowerCode}/>
-              <img style={this.state.landscape.ds} src={DS} alt={DS}/>
-              <img style={this.state.landscape.ask} src={ASK} alt={ASK}/>
-              <img style={this.state.landscape.yola} src={Yola} alt={Yola}/>
-              <img style={this.state.landscape.fest} src={Fest} alt={Fest}/>
-              <img style={this.state.landscape.sync} src={Sync} alt={Sync}/>
-            </div>
 
-            <div className="line last">
-              <img style={this.state.landscape.prof} src={Prof} alt={Prof}/>
-              <img style={this.state.landscape.zntu} src={ZNTU} alt={ZNTU}/>
-              <img style={this.state.landscape.level} src={Level} alt={Level}/>
-              <img style={this.state.landscape.step} src={Step} alt={Step}/>
-              <img style={this.state.landscape.kisson} src={Kisson} alt={Kisson}/>
-              <img style={this.state.landscape.vp} src={VP} alt={VP}/>
-            </div>
+           
 
             <a href="#contacts" className="button" id="become-partner">Стать партнером</a>
 
@@ -188,24 +181,11 @@ class Partners extends React.Component {
               </div>
               <div className="line-mobile">
                 <img style={this.state.portrait.pc} src={PowerCode} alt={PowerCode}/>
-                <img style={this.state.portrait.ds} src={DS} alt={DS}/>
-                <img style={this.state.portrait.ask} src={ASK} alt={ASK}/>
-              </div>
-              <div className="line-mobile">
-                <img style={this.state.portrait.yola} src={Yola} alt={Yola}/>
-                <img style={this.state.portrait.fest} src={Fest} alt={Fest}/>
-                <img style={this.state.portrait.sync} src={Sync} alt={Sync}/>
-              </div>
-              <div className="line-mobile">
-                <img style={this.state.portrait.prof} src={Prof} alt={Prof}/>
+                 <img style={this.state.portrait.prof} src={Prof} alt={Prof}/>
                 <img style={this.state.portrait.zntu} src={ZNTU} alt={ZNTU}/>
-                <img style={this.state.portrait.level} src={Level} alt={Level}/>
+                
               </div>
-              <div className="line-mobile">
-                <img style={this.state.portrait.step} src={Step} alt={Step}/>
-                <img style={this.state.portrait.kisson} src={Kisson} alt={Kisson}/>
-                <img style={this.state.portrait.vp} src={VP} alt={VP}/>
-              </div>
+            
             </div>
 
             <a href="#contacts" className="button" id="become-partner-mobile">Стать партнером</a>

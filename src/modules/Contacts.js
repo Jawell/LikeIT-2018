@@ -39,11 +39,11 @@ class Contacts extends React.Component
                 <p style={name}>Игорь Худолей</p>
                 <div>
                   <img src={Phone} alt={Phone}/>
-                  <p>+38 (063) 968 60 09</p>
+                  <p>+38 (068) 757 60 89</p>
                 </div>
                 <div>
                   <img src={Email} alt={Email}/>
-                  <p>maxim.voytih@BEST.eu.org</p>
+                  <p>igor.khudolei@BEST.eu.org</p>
                 </div>
               </div>
             </div>

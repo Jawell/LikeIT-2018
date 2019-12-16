@@ -40,8 +40,8 @@
     .wrapper > div {
       display: grid;
       grid-area: text;
-      grid-template-areas: "fb inst"
-                            "copyright copyright";
+      grid-template-areas: "fb inst tl"
+                            "copyright copyright .";
       grid-row-gap: 1.145vw;
       grid-column-gap: 0.520vw;
       justify-items: center;
@@ -63,6 +63,13 @@
       grid-area: inst;
       justify-self: start;
     }
+    #tl{
+    grid-area: tl;
+    jjustify-self: center;
+    margin-left: -5.8vw;
+  
+    }
+   
 
     .wrapper > img {
       width: 9.375vw;
