@@ -1,22 +1,8 @@
 import React from 'react';
 
-class Chance extends React.Component
-{
-state = {
-    date: ""
-  };
-
-  componentDidMount() {
-    this.getDate();
-  }
-
-  getDate = () => {
-    var str = new Date().toDateString();
-    var date = str.substr(-2,2);
-    this.setState({ date });
-  };
+class Chance extends React.Component {
   render() {
-   const { date } = this.state;
+  const date = new Date().getFullYear().toString().substr(-2,2);
     return(
       <section id="Chance">
         <div id="people">
